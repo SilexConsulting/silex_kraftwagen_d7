@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * Install/ uninstall file for the Silex installation profile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function silex_install() {
+  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
+}

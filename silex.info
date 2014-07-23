@@ -1,0 +1,26 @@
+name = Silex Kraftwagen (Drupal 7)
+description = "Example site installation for Silex using the Kraftwagen drush plugin."
+core = 7.x
+version = VERSION
+
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = file
+dependencies[] = admin_menu
+dependencies[] = features
+dependencies[] = strongarm
+
+dependencies[] = kw_manifests
+
+env_dependencies[development][] = field_ui
+
+files[] = silex.profile
