@@ -1,4 +1,4 @@
-This directory should contain the custom developed modules for ***HUMAN_NAME***.
+This directory should contain the custom developed modules for the Silex installation profile.
 
 Please note that custom modules still have a generic nature. If it actually just
 is for creating, you should place the module in the features directory.  
