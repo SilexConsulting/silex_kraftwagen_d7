@@ -48,7 +48,7 @@ These steps will prepare the code for development; although these steps are comm
 
     The build process will copy the contents of `src` into `build/profiles/silex` and will include the `.git` directory, making it a full copy of the workspace.
 
-Navigate to `build/profiles/silex` to work and you can refresh your code as necessary.
+    Navigate to `build/profiles/silex` to work and you can refresh your code as necessary.
 
 6. Initialize the database:
 
