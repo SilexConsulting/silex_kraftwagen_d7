@@ -1,0 +1,28 @@
+{
+  "name": "SilexConsulting/silex_kraftwagen_d7",
+  "description": "Example site installation for Silex using the Kraftwagen drush plugin.",
+  "authors": [
+    {
+      "name": "Paul Maddern",
+      "email": "paul@arcadegeek.co.uk"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/drush-ops/drush.git"
+    }
+  ],
+  "require": {
+    "drush/drush": "6.1.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "test -d vendor/drush/drush/commands/kraftwagen || git clone git://github.com/kraftwagen/kraftwagen.git vendor/drush/drush/commands/kraftwagen",
+      "bin/drush cc drush"
+    ]
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
