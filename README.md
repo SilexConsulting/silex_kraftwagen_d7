@@ -7,7 +7,7 @@ A [Drupal](https://drupal.org/) application built using the [Kraftwagen](http://
 
 Kraftwagen provides a unique system for defining application environments and building the Drupal application accordingly.
 
-These steps will prepare the code fro development; although, these steps are common to all builds:
+These steps will prepare the code for development; although these steps are common to all builds:
 
 1. Clone repo to `src`
 
@@ -15,7 +15,7 @@ These steps will prepare the code fro development; although, these steps are com
     git clone git@github.com:SilexConsulting/silex_kraftwagen_d7.git silex/src
     ```
 
-2. Navigate into `src` and install `drush` with Kraftwagen plugin with [Composer](http://getcomposer.org/)
+2. Navigate into `src` to install `drush` and the Kraftwagen plugin with [Composer](http://getcomposer.org/)
 
     ```bash
     cd silex/src
